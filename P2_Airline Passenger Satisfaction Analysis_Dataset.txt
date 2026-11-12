@@ -1,0 +1,36 @@
+Project 2: Airline Passenger Satisfaction Analysis using SQL
+1. Dataset Overview
+Total Records: 25,976
+Total Columns: 19
+Primary Key: `ID`
+Duplicate IDs: None
+Link: https://www.kaggle.com/datasets/teejmahal20/airline-passenger-satisfaction?resource=download
+
+2. Column Description
+	1. ID - Unique identification number for each passenger record.
+	2. Gender - Male/Female. 
+	3. Customer Type - Loyal Customer/Disloyal Customer. 
+ 	4.Age - 7–85 years. 
+ 	5.Type of Travel - Business Travel/Personal Travel. 
+ 	6.Class - Eco, Eco Plus, Business. 
+ 	7.Flight Distance - Distance covered by the flight. 
+ 	8. Inflight wifi service -  Passenger rating . 
+ 	9. Departure/Arrival time convenient - Passenger rating. 
+ 	10. Ease of Online booking -  Passenger rating. 
+ 	11. Food and drink - Passenger rating. 
+ 	12. Seat comfort - Passenger rating. 
+ 	13. Inflight entertainment  Passenger rating. 
+ 	14. Onboard service - Passenger rating. 
+ 	15. Leg room service - Passenger rating. 
+ 	16. Baggage handling -  Passenger rating. 
+ 	17. Cleanliness - Passenger rating. 
+ 	18. Departure Delay in Minutes - Departure delay duration in minutes. 
+	19. Arrival Delay in Minutes  Arrival delay duration in minutes. 
+
+## 3. Additional Observations
+
+ The `ID` column is unique and contains no missing values. Therefore, it serves as the primary key.
+ The servicerelated columns contain passenger ratings, generally on a scale of 0 to 5.
+ Passenger age ranges from 7 to 85 years.
+ Flight distance ranges from 31 to 4,983.
+ The `Arrival Delay in Minutes` column contains 83 missing values.
